@@ -27,14 +27,5 @@ UnitedTwitterServer::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  config = {
-    :consumer_key    => ENV["CONSUMER_KEY"],
-    :consumer_secret => ENV["CONSUMER_SECRET"],
-    :access_token    => ENV["ACCESS_TOKEN"],
-    :access_token_secret => ENV["ACCESS_SECRET"]
-  }
-
-  client = Twitter::REST::Client.new(config)
-
 
 end
