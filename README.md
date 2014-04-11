@@ -1,8 +1,9 @@
 United Twitter Server
 ========
 
-Loads the latest tweets related to Manchester United F.C.
+Loads latest tweets from Manchester United F.C. official twitter account.
 
 Technologies:
+
 	- RoR
 	- Twitter API
